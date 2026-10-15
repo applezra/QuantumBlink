@@ -1,0 +1,50 @@
+{
+  "$schema": "https://raw.githubusercontent.com/ow-mods/owml/master/schemas/config_schema.json",
+  "enabled": true,
+  "settings": {
+    "blinkMode": {
+      "type": "selector",
+      "title": "Blink mode",
+      "tooltip": "Real-time: every blink counts the moment it happens. Intentional: only counts when you keep your eyes closed for a moment, so normal blinking doesn't affect the game. Use Intentional if you see quantum objects move as you open your eyes.",
+      "value": "Real-time",
+      "options": [
+        "Real-time",
+        "Intentional"
+      ]
+    },
+    "holdTime": {
+      "type": "slider",
+      "title": "Intentional hold time",
+      "tooltip": "In Intentional mode, how many seconds you must keep your eyes closed for it to count. Increase it if normal blinks still count. Decrease it if you have to hold your eyes closed too long.",
+      "min": 0.3,
+      "max": 1.3,
+      "value": 0.6
+    },
+    "sensitivity": {
+      "type": "slider",
+      "title": "Blink sensitivity",
+      "tooltip": "Increase it if your blinks get missed. Decrease it if blinks count when you didn't blink. Changes apply right away.",
+      "min": 0,
+      "max": 1,
+      "value": 0.5
+    },
+    "webcam": {
+      "type": "selector",
+      "title": "Webcam number",
+      "tooltip": "Which webcam to use. 1 is your default webcam. If the wrong camera is used, try 2, 3 or 4.",
+      "value": "1",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ]
+    },
+    "debugLogging": {
+      "type": "toggle",
+      "title": "Debug logging",
+      "tooltip": "Log every blink and every quantum move to the mod console.",
+      "value": false
+    }
+  }
+}

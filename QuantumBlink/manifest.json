@@ -1,0 +1,15 @@
+{
+  "$schema": "https://raw.githubusercontent.com/ow-mods/owml/master/schemas/manifest_schema.json",
+  "filename": "QuantumBlink.dll",
+  "author": "Zra",
+  "name": "QuantumBlink",
+  "uniqueName": "Zra.QuantumBlink",
+  "version": "1.0.0",
+  "owmlVersion": "2.15.1",
+  "dependencies": [],
+  "conflicts": [ "Zra.QuantumBlinkVR" ],
+  "warning": {
+    "title": "QuantumBlink uses your webcam",
+    "body": "This mod watches your webcam to see when you blink. The video is processed on your computer and is never saved or sent anywhere. To test your webcam, go to Options > MODS > QuantumBlink > CALIBRATION."
+  }
+}
