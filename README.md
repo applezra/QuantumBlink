@@ -26,6 +26,11 @@ QuantumBlink lets you interact with quantum objects by closing your eyes. It wat
 3. To check it's working, go to **Options > MODS > QuantumBlink > CALIBRATION** and blink. The eyes on the screen close each time a blink counts.
 4. Calibrate if needed.
 
+## Webcam placement
+
+- **Best:** to the left or right of your monitor, at eye level. A webcam level with your eyes will give you the most accurate blink reading.
+- Also works: on top of your monitor, may experience unintentional blinks by looking at the bottom of your monitor
+
 ## Settings
 
 Find these in **Options > MODS > QuantumBlink**.
