@@ -11,9 +11,6 @@ QuantumBlink lets you interact with quantum objects by closing your eyes. It wat
 
 - Move quantum objects through eye tracked blinking via a webcam.
 - Two blink modes to accommodate different setups.
-- Real-time blink mode reads blink data and triggers instantly, offering the most immersive and realistic experience, but could be disorienting on setups with more latency.
-- Intentional blink mode reads blink data and measures how long you blink, with an adjustable trigger time. This allows you to intentionally hold your eyes closed a bit longer to use the mod's blink function instead of moving on every sensed blink. This is particularly useful for setups with higher latency as this will cover up the quantum objects moving.
-- Calibration tab in order to test your webcam, and settings for blink sensitivity, intentional blink mode hold time, and webcam selection if you have multiple.
 
 ## Requirements
 
