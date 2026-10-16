@@ -1,4 +1,5 @@
-<!-- Put your banner image here, at the very top. It becomes the thumbnail on the mod website and should be 3:1 (for example 1200x400). -->
+<img width="3900" height="1300" alt="QuantumBlink Logo" src="https://github.com/user-attachments/assets/960beb12-e78d-4fcb-94af-f36e85073cd9" />
+
 
 # QuantumBlink
 
